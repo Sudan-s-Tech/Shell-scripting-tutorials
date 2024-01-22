@@ -1,0 +1,19 @@
+=>cat is used to write into file
+
+cat test       //no suh file or directory
+cat > test         //file creation
+This is a text file.    //input the text
+^D                   //press ctrl+d to finish inputting the content of the file
+cat < test
+This is a text file.     //output
+
+
+
+=> cat is used to merge two file and create file
+cat file1 file2 > newfile
+cat newfile
+
+
+//to append data at end of file
+cat >> newfile
+:wq  -write and quit

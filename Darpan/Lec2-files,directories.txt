@@ -1,0 +1,12 @@
+touch - to create empty text files
+touch test1 test2 test3
+
+
+
+mkdir - to create directories(folder)
+mkdir dir1 && mkdir dir2
+mkdir Documents/dir1
+
+
+
+cd  - change directory
