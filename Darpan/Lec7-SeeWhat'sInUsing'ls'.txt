@@ -1,0 +1,14 @@
+cat > test
+I am feeling hungry 
+
+ls
+cd Documents
+ls Documents
+
+ls-l    //long listing in downwards order
+
+ls -a //to display hidden files 
+
+
+
+

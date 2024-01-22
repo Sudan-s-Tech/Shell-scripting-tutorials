@@ -1,0 +1,20 @@
+cat > animals 
+owls
+camels
+pigs
+lions
+elephant
+snake
+
+cat animals 
+
+cat > sports
+cricket 
+tennis
+football
+basketball
+basketball
+
+cat sports
+
+sort animals   //sort in alphabetical order

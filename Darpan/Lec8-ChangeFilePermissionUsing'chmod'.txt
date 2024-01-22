@@ -1,0 +1,13 @@
+touch test
+ls
+ls -l
+
+chmod 777 test   //given all permission to write , read , execute
+
+chmod 444 test //read permission
+
+
+
+uname -a       
+//name of kernel , name of machine ,version of kernel, system date , time ,year ,processor 
+

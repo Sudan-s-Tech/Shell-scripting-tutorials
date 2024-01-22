@@ -1,0 +1,20 @@
+act > players
+Name-Sport-Age
+Roger -Tennis-30
+Rafel-Tennis-25
+John-Basketball-40
+Mike-Football-35
+Jane-Baseball-38
+
+cat players
+
+cut -d"-" -f 1,3 players
+# This will give you the first and third field of each line in the file. The output
+# would be:
+# Roger-30
+# Rafel-25
+# John-40
+# Mike-35
+# Jane-38
+
+
