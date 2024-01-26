@@ -1,0 +1,10 @@
+/ * %
++ -
+
+
+if i wish to change precedence 
+a=30 b=15 c=2 d=5
+$a \* $b + $c / $d
+echo expr `$a \* \($b + $c \) / $d`
+
+sh s8.sh
