@@ -1,5 +1,29 @@
 echo "Enter a file name:\c"
 read fname
-[ -z "$fname" ]
+if [ -z "$fname" ]
 then
   exit
+fi
+
+terminal = `tty`
+
+exec < $fname
+
+count =1
+
+while read line 
+do
+  echo $count.$line
+  count =`expr $count + 1`
+done
+
+exec < $terminal
+
+
+
+
+
+
+
+sh read.sh
+Enter a file name:text
