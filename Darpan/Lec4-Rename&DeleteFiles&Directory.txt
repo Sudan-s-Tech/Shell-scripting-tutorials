@@ -1,0 +1,16 @@
+touch        //to create empty text files
+touch forest_gump
+
+
+mv - to rename the file
+mv forest_gump the_green_mile   //rename the file 
+
+rm - remove
+rm the_green_mile    //remove the file called "the green mile"
+
+mkdir new 
+rm new     //cannot remove new : it is directory
+rm -r new   //deleted
+
+mkdir test 
+rmdir test    //deleted

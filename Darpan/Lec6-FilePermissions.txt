@@ -1,0 +1,29 @@
+=================================
+permissions:  Default settings
+owner: 
+Access:Read and Write
+Group:
+other(to someone) access:  Read-Only
+Execute: Allow executing file as program  (X)
+
+======================================
+Read = numeric value 4
+Write = 2
+Execute = 1
+The "numeric" values are used by the chmod command. The octal representation of these
+values is 0621, which corresponds to the permissions shown above.
+
+umask  - system variable 
+=====
+show 4digits - 0022
+
+666-022    read & write 
+775-022    rwxrwxr-x   group has execute permission
+777-022    rwxrwxrwx   everyone can do everything
+If you want a file or directory to be readable only by its owner, use umask
+022         r--r--r--   no one can read it
+If you want files created in that directory to have the same rights as the parent
+directory, use umask 002. If you want all new files to be executable,
+use umask 011. To make sure that newly created directories will also inherit
+the default permissions from their parent directory, use umask 000.
+A common practice for setting the umask on Unix systems is to set it to 02

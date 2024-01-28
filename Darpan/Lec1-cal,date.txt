@@ -1,0 +1,21 @@
+Commands 
+-------------------
+1.clear - to clear the terminal 
+2.who am i - to check the username , terminal  id and time and date of login
+3.pwd - present directory in which shell is in
+---------
+
+VIEW SYSTEM CALENDAR , DATE
+==================================
+
+
+cal - to show calendar 
+ ---
+cal 7 2023 - show calendar of 7th month 
+cal feb 2023 - show calendar of feb month 
+------------
+
+date - show day month date time and timezone and year
+-------
+date '+DATE:%m-%y%nTIME:%H:%M:%S'
+-------

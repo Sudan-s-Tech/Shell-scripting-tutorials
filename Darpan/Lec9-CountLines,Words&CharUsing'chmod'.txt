@@ -1,0 +1,21 @@
+cat > jazzy
+I am Darpan Sudan.
+We r in this file.
+i think i need to sleep.
+
+cat jazzy   //prints
+
+file *  //all files/directory display
+
+wc jazzy
+//no of lines in file , no of words , no of char , name of file 
+
+
+wc -l jazzy
+//no of lines
+
+wc -w jazzy
+//no of words 
+
+wc -c jazzy 
+no of char

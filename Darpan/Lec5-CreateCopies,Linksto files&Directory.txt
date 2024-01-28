@@ -1,0 +1,16 @@
+cp - copy files from one location to other
+
+touch old 
+cp old Document/old_doc  //copy file to new location with different name 
+
+-----------------------------
+links types:
+soft and hard
+
+hard: copy of a file or directory and occupy same space as root directory or file
+soft: a pointer or reference a system uses to poit to address of original file or directory
+
+
+ln file1 file2       //hard link means if i write something in file1 then it reflect in file2
+
+ln -s old old_soft      //soft link   if i delete old file then new will be ok but old_soft is broken 

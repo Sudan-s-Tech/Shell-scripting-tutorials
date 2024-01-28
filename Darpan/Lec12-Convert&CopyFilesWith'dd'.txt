@@ -1,0 +1,16 @@
+cat > test
+This is a ascii text file
+
+cat test
+
+dd if=test of=out conv=ucase  //if-input file   , of-output file  conv-convert
+
+cat out
+
+dd if=test of=test2 conv=ebcdic
+cat test2
+\
+The output from the first dd command shows that it has converted all characters to uppercase. The second
+dd command converts the ASCII input file "test" to EBCDIC and stores the result in
+the file "test2". When you type "cat test2", you see that this file contains
+EBCDIC characters, not ASCII.</s>

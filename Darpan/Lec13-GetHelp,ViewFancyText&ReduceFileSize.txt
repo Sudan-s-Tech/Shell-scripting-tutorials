@@ -1,0 +1,14 @@
+man cat    //help or manuals 
+q  //exit
+
+banner I am a Bad Programmer     //generate fancy text
+
+banner "BYE BYE"  //only show 10chars in one line
+
+
+compress -v test   //reduce size
+
+zcat test.Z    //to see the file
+
+uncompress test.Z   //to uncompress
+
